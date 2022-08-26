@@ -41,13 +41,9 @@ Users should be able to:
 - Mobile-first workflow
 - [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
-
-
-
-### Continued development
-
 
 ## Author
-
+Website -(https://app.netlify.com/teams/nwakego98)
+Frontend Mentor - (https://www.frontendmentor.io/profile/nwakego98)
+Twitter - (https://www.twitter.com/GlowRee17?t=wvddWNyWznpHL13CvpRMyg&s=08)
 
