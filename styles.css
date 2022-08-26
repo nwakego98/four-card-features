@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-color:hsl(0, 0%, 98%);
+    height: 100vh;
+}
+
+main {
+
+    padding: 5rem 1.7rem;
+    text-align: center;
+  }
+
+   h1{
+    font-size: 1.55em;
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+  }
+
+   h2{
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%)
+  }
+
+   p{
+    font-size: 15px;
+    margin-bottom: 60px;
+    color: hsl(229, 6%, 66%);
+  }
+
+  .card {
+    height: 225px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.122);
+    margin: 20px 0;
+    text-align: left;
+    padding: 30px 25px;
+    border-radius: 5px;
+  }
+
+  .card h3{
+    color:hsl(234, 12%, 34%) ;
+  }
+
+.one{
+  border-top: 3px solid hsl(180, 62%, 55%);
+  background: url(images/icon-supervisor.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+.two{
+  border-top: 3px solid hsl(0, 78%, 62%);
+  background: url(./images/icon-team-builder.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+.three {
+  border-top: 3px solid hsl(34, 97%, 64%);
+  background: url(./images/icon-karma.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+.four {
+  border-top: 3px solid hsl(212, 86%, 64%);
+  background: url(./images/icon-calculator.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .one, .two, .three, .four {
+      width: 45%;
+      margin: 10px 10px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  /* *{ border: 1px solid black;} */
+
+  h1 {
+      font-size: 2em;
+      
+  }
+
+  h2 {
+      font-size: 2em;
+  }
+
+  header p {
+      font-size: 1em;
+      white-space: pre;
+  }
+
+}
+
+@media screen and (min-width: 1250px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap {
+  width: 1150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.one, .two, .three, .four {
+  width: 350px;
+  height: 250px;
+}
+
+.three {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin-top: -115px;
+}
+
+.one, .four {
+  margin-top: 150px
+}
+
+}
